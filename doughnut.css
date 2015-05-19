@@ -1,0 +1,126 @@
+.Blue {
+  color: rgb(0, 46, 184);
+  margin: 10px;
+  padding: 5px;
+}
+
+.Red {
+  padding: 4px;
+  font-size: 95%;
+  background-color: rgb(255, 30, 30);
+}
+
+td {
+  padding: 3px;
+  font-style: oblique;
+  background-color: rgb(255, 102, 102);
+}
+td.alt {
+  background-color: rgb(255,160,160);
+}
+
+body {
+  background-color: rgb(232, 232, 224);
+}
+
+th, td, tr {
+  border-radius: 5px;
+}
+
+#ital {
+  font-style: italic;
+}
+.info{
+  display:inline-block;
+  text-decoration: none;
+  background-color:#09F;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius:10px;
+  font-size: 1.5em;
+}
+
+.menu{
+  margin: 50px;
+}
+#menu,
+#menu ul,
+#menu li,
+#menu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+#menu a {
+  line-height: 1.3;
+}
+#menu {
+  width: 250px;
+}
+#menu > ul > li > a {
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #1E1E42;
+  color: #ffffff;
+  border-bottom: 1px solid #5e071b;
+  text-transform: uppercase;
+  position: relative;
+}
+#menu > ul > li > a > span {
+  background: #6565DD;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+#menu > ul > li > a:hover {
+  text-decoration: none;
+}
+#menu > ul > li.active {
+  border-bottom: none;
+}
+#menu > ul > li.active > a {
+  color: #fff;
+}
+#menu > ul > li.active > a span {
+  background: #1E1E42;
+}
+#menu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+#menu ul ul {
+  display: none;
+}
+#menu ul ul li {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+}
+#menu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #ed1144;
+  font-size: 13px;
+}
+#menu ul ul a:hover {
+  color: #bd0e36;
+}
+#menu ul ul li.odd {
+  background: #f4f4f4;
+}
+#menu ul ul li.even {
+  background: #fff;
+}

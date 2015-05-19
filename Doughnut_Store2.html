@@ -1,0 +1,100 @@
+<html>
+	<head><link rel="stylesheet" type="text/css" href="doughnut.css"</head>
+
+	<body>
+		<header>
+			<h1 class="Blue">Welcome to Conlan's Doughnut Shop simulation!</h1>
+			<h3 class="Blue" id= "ital">Below will be a list of shops around the Seattle area and some information about them including the estimated number of doughnuts they need to produce per day!</h3>
+
+		</header>
+		<!-- the image wont load when linked directly to the site. If i download the picuter and source it from my computer it works though. -->
+		<p><img src="http://imgur.com/gallery/Hiw0N" alt= "Large Doughnut from imgur" style="width:300px;height:300px"></p>
+		<section>
+			<h2>Store Locations</h2>
+		<div id="menu">
+		  <ul>
+		  	<li><a href='#'><span>Downtown</span></a>
+		    	<ul>
+		      		<li><a href='#'><span>Minimum Customers: 8</span></a></li>
+		         	<li><a href='#'><span>Maximum Customers: 43</span></a></li>
+		         	<li><a href='#'><span>Average Doughnuts per Customer: 4.5</span></a></li>
+		    	</ul>
+		    </li>
+		    <li><a href='#'><span>Capitol Hill</span></a>
+		   		<ul>
+		        	<li><a href='#'><span>Minimum Customers: 4</span></a></li>
+		        	<li><a href='#'><span>Maximum Customers: 37</span></a></li>
+		         	<li><a href='#'><span>Average Doughnuts per Customer: 2.0</span></a></li>
+		      	</ul>
+		    </li>
+		    <li><a href='#'><span>South Lake Union </span></a>
+		    	<ul>
+		         	<li><a href='#'><span>Minimum Customers: 9</span></a></li>
+		         	<li><a href='#'><span>Maximum Customers: 23</span></a></li>
+		         	<li><a href='#'><span>Average Doughnuts per Customer: 6.33</span></a></li>
+		      	</ul>
+		    	</li>
+		    <li><a href='#'><span>Wedgewood</span></a>
+		      	<ul>
+		         	<li><a href='#'><span>Minimum Customers: 2</span></a></li>
+		         	<li><a href='#'><span>Maximum Customers: 28</span></a></li>
+		         	<li><a href='#'><span>Average Doughnuts per Customer: 1.25</span></a></li>
+		      	</ul>
+		    </li>
+		    <li><a href='#'><span>Ballard</span></a>
+		      	<ul>
+		         	<li><a href='#'><span>Minimum Customers: 8</span></a></li>
+		         	<li><a href='#'><span>Maximum Customers: 58</span></a></li>
+		         	<li><a href='#'><span>Average Doughnuts per Customer: 3.75</span></a></li>
+		      	</ul>
+		    </li>
+		</div>
+
+		<table>
+			<thead>
+				<th class = "Red">Location</th>
+				<th class = "Red">Minimum customers per hour</th>
+				<th class = "Red">Maximum customers per hour</th>
+				<th class = "Red">Average doughnuts per customer</th>
+				<th class = "Red">Estimated doughnuts to bake per day</th>
+			</thead>
+			<tr>
+				<td>Downtown</td>
+				<td>8</td>
+				<td>43</td>
+				<td>4.5</td>
+				<td id = "downD"></td>
+			</tr>
+			<tr>
+				<td class="alt">Capitol Hill</td>
+				<td class="alt">4</td>
+				<td class="alt">37</td>
+				<td class="alt">2.0</td>
+				<td class="alt" id="capD"></td>
+			</tr>
+			<tr>
+				<td>South Lake Union</td>
+				<td>9</td>
+				<td>23</td>
+				<td>6.33</td>
+				<td id="southD"></td>
+			</tr>
+			<tr>
+				<td class="alt">Wedgewood</td>
+				<td class="alt">2</td>
+				<td class="alt">28</td>
+				<td class="alt">1.25</td>
+				<td class="alt" id="wedgeD"></td>
+			</tr>
+			<tr>
+				<td>Ballard</td>
+				<td>8</td>
+				<td>58</td>
+				<td>3.75</td>
+				<td>1752</td>
+			</tr>
+		</table>
+	</body>
+	<script src="Doughnut_Store.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</html>
